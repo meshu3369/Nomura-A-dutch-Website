@@ -1,0 +1,674 @@
+@media (max-width: 768px) {
+
+    .top_header {
+        text-align: center;
+
+    }
+
+    .carousel-caption {
+        top: 15%;
+    }
+
+    .carousel-caption button {
+        font-size: 10px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 14px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 13px;
+    }
+
+    .carousel-control .icon-next,
+    .carousel-control .right_fa {
+        height: 70px;
+        width: 60px;
+        font-size: 25px;
+    }
+
+    .carousel-control .icon-prev,
+    .carousel-control .left_fa {
+        height: 70px;
+        width: 60px;
+        font-size: 25px;
+
+    }
+
+    .slider:before{
+        height: 60px;
+    }
+    /********************** NAVIGATION FOR MOBILE LAYOUT ****************/
+    .navigation {
+        top: -15px;
+        width: 100%;
+        transition: all .4s ease;
+    }
+
+    .bootsnav {
+        max-width: 100%;
+        z-index: 99999999;
+
+    }
+
+    .wrap-sticky nav.navbar.bootsnav {
+        height: 80px;
+        width: 100%;
+    }
+
+    .wrap-sticky nav.sticked {
+        max-width: 100%;
+    }
+
+    #logo:before {
+        left: -60px;
+        top: 23px;
+    }
+
+    .sticked #logo:before {
+        left: -60px;
+    }
+
+    .bootsnav:before {
+        opacity: .6;
+        top: 15px;
+
+        height: 75%;
+    }
+
+    .bootsnav:after {
+        height: 75%;
+        transform: scaleX(.4);
+        position: absolute;
+        display: block;
+        top: 15px;
+        left: 10%;
+        transition: all .1s ease-in-out;
+    }
+
+    .sticked:after {
+        top: 0px;
+        height: 100%;
+    }
+
+    .sticked:before {
+        top: 0px;
+        height: 100%;
+    }
+
+    nav.navbar.bootsnav .navbar-toggle {
+        margin-top: 20px !important;
+    }
+
+    .wrap-sticky nav.navbar.bootsnav.sticked .navbar-toggle {
+        margin-top: 10px !important;
+    }
+
+    .wrap-sticky nav.navbar.bootsnav.sticked {
+        left: 0;
+        right: 0;
+    }
+
+    /*
+      product slider
+    */
+    .red_bg {
+        font-size: 12px;
+    }
+
+    .footer {
+        margin-bottom: 70px;
+    }
+
+    .forward_page_cnt {
+        bottom: -60px;
+
+    }
+
+    .carousel .item {
+        height: 200px;
+    }
+
+    .item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 200px;
+    }
+
+    .single_product {
+        height: 450px;
+    }
+
+    .bottom_footer .copyright h5 {
+        font-size: 15px;
+    }
+
+    .bottom_footer .copyright p {
+        font-size: 11px;
+    }
+
+    .bottom_footer li a {
+        font-size: 11px;
+    }
+
+    .footer .flexy {
+        padding-left: 5px;
+    }
+
+    .footer .footer_single {
+        margin-bottom: 20px;
+    }
+
+    .footer .flexy {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .footer_single:first-child {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        margin-left: -15px;
+    }
+
+    .top_header_left img {
+        max-width: 60%;
+    }
+
+    .copyright img {
+        max-width: 50%;
+        float: right;
+        margin: 10px 5px;
+    }
+
+    .product .owl-theme .owl-controls .owl-buttons div {
+        padding: 10px 15px;
+        font-size: 20px;
+        opacity: 0.7;
+    }
+
+    .product .owl-theme .owl-controls {
+        top: 0px;
+    }
+
+    .product_title h3 {
+        font-size: 20px;
+    }
+
+    .blocks .single_product {
+        height:auto;
+        margin-bottom:40px;
+    }
+
+
+
+    .fonds_box .right_side{
+        padding-left: 0px;
+    }
+
+
+    .fund_bottom_tag .btn {
+        margin-top: -10px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .bootsnav:before {
+        left: 75%;
+    }
+
+    .top_header_left img {
+        max-width: 100%;
+    }
+
+    .footer .copyright img {
+        max-width: 100%;
+    }
+
+    .product .owl-theme .owl-controls .owl-buttons div {
+        padding: 10px 15px;
+        font-size: 20px;
+        opacity: 0.7;
+    }
+
+    .product .owl-theme .owl-controls {
+        top: 0px;
+    }
+
+    .product_title h3 {
+        font-size: 16px;
+    }
+
+    .single_product h3 {
+        font-size: 15px;
+    }
+
+    .single_product_two h3 {
+        font-size: 15px;
+    }
+
+    .footer .footer_single {
+        margin-bottom: 20px;
+    }
+
+    .footer .flexy {
+        padding-left: 0px;
+    }
+
+    .bootsnav:after {
+        left: 15%;
+    }
+
+    .bottom_footer .copyright img {
+        margin: 15px 0px;
+        max-width: 70%;
+    }
+
+    .bottom_footer .copyright {
+        padding-right: 15px;
+    }
+    .fund_bottom_tag .btn {
+        margin-top: 0;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .search_bar {
+        float: right;
+    }
+
+    .lang_bar {
+        margin-top: -30px;
+        float: right;
+    }
+
+    .search_bar form {
+        float: left;
+        margin-right: 40px;
+    }
+
+    .footer .flexy {
+        padding-left: 6px;
+    }
+
+    .carousel .item {
+        height: 300px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 18px;
+    }
+
+    .carousel-caption .btn {
+        font-size: 12px;
+    }
+
+    .item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 300px;
+    }
+
+    .slider:before{
+        height: 72px;
+    }
+
+    /********************** NAVIGATION FOR TABLET ****************/
+    .bootsnav:before {
+        left: 300px;
+        top: 15px;
+        height: 80%;
+        transition: all .5s;
+    }
+
+    .bootsnav:after {
+        height: 80%;
+        transform: scaleX(.5);
+        position: absolute;
+        display: block;
+        top: 15px;
+        left: -50px;
+        transition: all .5s;
+    }
+
+    .sticked:before {
+        top: 0px;
+        height: 100%;
+    }
+
+    .sticked:after {
+        top: 0px;
+        height: 100%;
+    }
+
+    nav.navbar.bootsnav .navbar-toggle {
+        margin-top: 30px !important;
+    }
+
+    .wrap-sticky nav.navbar.bootsnav.sticked .navbar-toggle {
+        margin-top: 10px !important;
+    }
+
+    .navigation {
+        top: -15px;
+    }
+
+    #logo:before {
+        top: 30px;
+    }
+
+    .red_bg {
+        font-size: 12px;
+    }
+
+    .single_product {
+        height: 450px;
+    }
+
+    .product_title h3 {
+        font-size: 20px;
+    }
+
+    .single_product h3 {
+        font-size: 18px;
+    }
+
+    .single_product_two h3 {
+        font-size: 18px;
+    }
+
+
+    .bottom_footer .copyright h5 {
+        font-size: 16px;
+    }
+
+    .bottom_footer .copyright p {
+        font-size: 12px;
+    }
+
+    .bottom_footer li a {
+        font-size: 12px;
+    }
+
+    .footer .flexy {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .footer .footer_single {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding-left: 40px;
+    }
+
+    .bottom_footer_menu li a {
+        font-size: 11px;
+    }
+
+    .bottom_footer .col-sm-8 {
+        padding-right: 0;
+    }
+
+    .footer .flexy {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer .footer_single:first-child {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        margin-left: -15px;
+    }
+
+    .forward_page_cnt {
+
+    }
+
+    .copyright img {
+        float: right;
+        margin-top: 5px;
+
+    }
+
+    .copyright {
+        padding-right: 15px;
+    }
+
+    .product .owl-theme .owl-controls .owl-buttons div {
+        padding: 8px 30px;
+    }
+    .product .owl-theme .owl-controls {
+        top: -72px;
+
+    }
+
+    .blocks {
+        overflow: hidden;
+    }
+    .blocks .col-sm-4{
+        margin-bottom: -99999px;
+        padding-bottom: 99999px;
+    }
+    .blocks_di .single_product{
+        min-height:799px;
+    }
+    .fund_bottom_tag .btn {
+        margin-top: 10px;
+    }
+
+    .isin_table tbody tr td:nth-child(1){
+        min-width: 30%;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .top_header_left img {
+        max-width: 90%;
+    }
+
+    .search_bar {
+        float: right;
+    }
+
+    .lang_bar {
+        margin-top: 5px;
+        float: right;
+    }
+
+    .search_bar form {
+        float: left;
+        margin-right: 40px;
+    }
+
+    .carousel .item {
+        height: 440px;
+    }
+
+    .item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 440px;
+    }
+
+    /* ********** NAVIGATION FOR LAPTOP DEVICES ************/
+    .navbar-nav {
+        margin-left: 26%;
+    }
+
+    .navbar-nav > li > a {
+        font-size: .8em;
+    }
+
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top:40px;
+        padding-bottom:40px;
+        margin-top: 15px;
+        margin-bottom:0px;
+
+        font-size: 0.7em;
+    }
+
+    .wrap-sticky nav.navbar.bootsnav.sticked .navbar-nav > li > a {
+        padding: 26px 15px;
+        margin-top: 3px;
+
+    }
+
+    .bootsnav:before {
+        left: 347.5px;
+    }
+
+    .red_bg {
+        font-size: 12px;
+    }
+
+    .single_product {
+        height: 400px;
+    }
+
+    .footer .flexy {
+        margin-bottom: 10px;
+    }
+
+    .footer .flexy {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .footer .footer_single {
+        flex-grow: 1;
+    }
+
+    .footer .forward_page_cnt {
+        float: right;
+    }
+
+    .copyright img {
+        max-width: 80%;
+        float: right;
+        margin-top: 5px;
+    }
+
+
+    .blocks {
+        overflow: hidden;
+    }
+    .blocks .col-sm-4{
+        margin-bottom: -99999px;
+        padding-bottom: 99999px;
+    }
+    .blocks_di .single_product{
+        min-height:730px;
+    }
+    .fund_info .left_area{
+        min-height:210px;
+    }
+
+
+
+
+}
+
+@media (min-width: 1201px) {
+    .top_header_left img {
+        max-width: 90%;
+        opacity:1;
+    }
+
+    .search_bar {
+        float: right;
+    }
+
+    .lang_bar {
+        margin-top: 5px;
+        float: right;
+    }
+
+    .search_bar form {
+        float: left;
+        margin-right: 40px;
+    }
+
+    #mySidenav {
+        display: none;
+    }
+
+    .sidenav {
+        display: none;
+    }
+
+    .carousel .item {
+        height: 440px;
+    }
+
+    .item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 440px;
+    }
+
+    /* *********** NAVIGATION *****************/
+    .bootsnav:before {
+        left: 387px;
+    }
+
+    .navbar-nav > li > a{
+
+    }
+    .wrap-sticky nav.navbar.bootsnav.sticked .navbar-nav > li > a {
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:26px;
+        padding-bottom:25px;
+    }
+
+    .footer .flexy {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .footer .footer_single {
+        flex-grow: 1;
+    }
+
+    .bottom_footer .copyright img {
+        max-width: 65%;
+        float: right;
+        margin-top: 5px;
+        opacity: 1;
+    }
+
+    .blocks {
+        overflow: hidden;
+    }
+    .blocks .col-sm-4{
+        margin-bottom: -99999px;
+        padding-bottom: 99999px;
+    }
+    .fund_info .left_area{
+        min-height:200px !important;
+    }
+}
+
